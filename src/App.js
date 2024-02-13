@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import "./styles.css";
 import { Line } from "react-chartjs-2";
 
 export default function App() {
@@ -27,7 +26,7 @@ export default function App() {
 
   console.log(xAxisLabels, yAxisLabels)
 
-  
+
   useEffect(() => {
     const fetchData = async () => {
       try {
